@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+  height: 100vh;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  position:relative;
+}
+.movieList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: calc(50% - 150px);
+}
+.promptAdd{
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 200px);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  height: 200px;
+  border-radius: 5px;
+  justify-content: space-around;
+  padding: 5px;
+  padding-top: 15px;
+
+}
+.searchDiv{
+  position: absolute;
+  top:0;
+  right: 5px;
+  background-color: rgb(29, 28, 28);
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+}
+.delete{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ffffff00;
+  border: none;
+}
+.promptAdd > div{
+  display: flex;
+  justify-content: space-between;
+}
+.submitButtonAddMovie{
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.ButtonAddMovie{
+  background-color: rgb(92, 163, 255);
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+}
+.searchDiv > div{
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+  .star{
+  font-size: 20px;
+  color: rgb(255, 251, 0);
+}
